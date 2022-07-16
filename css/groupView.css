@@ -1,0 +1,317 @@
+.groupBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.groupBoxData {
+    flex: 1;
+    margin: 10px 20px;
+    /*border: 1px solid #ecf0f1;*/
+    display: flex;
+    flex-direction: column;
+    /*flex-basis: 45%;*/
+    padding: 20px;
+}
+
+
+.groupBoxDataInfo {
+    flex: 1;
+    margin: 20px 0 0  0;
+}
+
+.groupBoxDataInfo:first-child {
+    flex: 1;
+    margin:  0;
+}
+
+/*STYLING GROUP INFO & MEMBERS*/
+
+.ginfo h2 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #27ae60;
+    padding: 5px 0 5px 5px;
+    text-transform: uppercase;
+    border-bottom: 5px solid  #27ae60;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ginfo h3 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #34495e;
+    padding: 5px 0 5px 5px;
+}
+
+.ginfo h4 {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color:  #d35400;
+    padding: 5px 0 5px 5px;
+    margin: 0;
+}
+
+.ginfo p {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color:  #7f8c8d;
+    padding: 5px 0 5px 5px;
+    margin: 10px 0 20px 0;
+    border-top: 2.5px solid #ecf0f1;
+}
+/*MEMBERS*/
+#groupMemberShow  {
+  margin: 5px 18px 5px 0;
+  background: #2980b9;
+  border: 2px solid #bdc3c7;
+  border-radius: 10px;
+  padding: 5px;
+  width: 182px; height: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+#groupMemberShow #groupMemberShowAvatar {
+    display: inline-block;
+    margin: 3px 15px 3px 0;
+    position: absolute;
+    top: 6px; left: 10px;
+}
+#groupMemberShow #groupMemberShowAvatar img {
+    width: 35px; height: 35px;
+    border-radius: 100px;
+    border: 2px solid #bdc3c7;
+    /*display: inline-block;*/
+}
+#MemberInfo {
+    display: inline-block;
+    position: absolute;
+    top: 8px; left: 60px;
+}
+#groupMemberShow h5 {
+    display: inline-block;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+#groupMemberShow h6 {
+    display: block;
+    color: #f1c40f;
+    font-size: 13px;
+}
+/*ADMINS*/
+#groupAdminShow  {
+  margin: 5px 18px 5px 0;
+  background: #c0392b;
+  border: 2px solid #bdc3c7;
+  border-radius: 10px;
+  padding: 5px;
+  width: 180px; height: 60px;
+  display: inline-block;
+  position: relative;
+}
+
+#groupAdminShow #groupAdminShowAvatar {
+    display: inline-block;
+    margin: 3px 15px 3px 0;
+    position: absolute;
+    top: 6px; left: 10px;
+}
+#groupAdminShow #groupAdminShowAvatar img {
+    width: 35px; height: 35px;
+    border-radius: 100px;
+    border: 2px solid #bdc3c7;
+    /*display: inline-block;*/
+}
+#AdminInfo {
+    display: inline-block;
+    position: absolute;
+    top: 8px; left: 60px;
+}
+#groupAdminShow h5 {
+    display: inline-block;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+#groupAdminShow h6 {
+    display: block;
+    color: #f1c40f;
+    font-size: 13px;
+}
+/*STYLING PROJECTS*/
+.projects h2 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #2980b9;
+    padding: 5px 0 5px 5px;
+    text-transform: uppercase;
+    border-bottom: 5px solid  #2980b9;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*REMOVE BUTTON STYLE*/
+#deleteMember {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+}
+
+#deleteMember form input[type="submit"] {
+    padding: 0px 5px;
+    background: #e74c3c;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#deleteMember form input[type="submit"]:hover {
+    background: #f1c40f;
+    transition: 1s;
+}
+
+/*UPDATE GROUP*/
+#updateGroup {
+}
+
+#updateGroup input[type="submit"] {
+    text-decoration: inherit;
+    color: #ecf0f1;
+    font-weight: bold;
+    padding: 5px;
+    background: #2ecc71;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#updateGroup input[type="submit"]:hover {
+    color: #2ecc71;
+    background: #ecf0f1;
+    border: 5px solid#2ecc71;
+    transition: 1s;
+}
+/*ADD PROJECT*/
+#addProject {
+
+}
+
+#addProject input[type="submit"] {
+    text-decoration: inherit;
+    color: #ecf0f1;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+    background: #2980b9;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    float: right;
+    /*display: inline-block;*/
+    cursor: pointer;
+    transition: 1s;
+}
+
+#addProject input[type="submit"]:hover {
+    color: #2980b9;
+    background: #ecf0f1;
+    border: 5px solid #2980b9;
+    transition: 1s;
+}
+/*GROUP PROJECTS*/
+#showProject {
+    width: 100%;
+    background: #2980b9;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    color: #ecf0f1
+}
+
+#showProject h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#showProjectRelative {
+    position: relative;
+}
+
+#showProject #enterProject {
+    position: absolute;
+    right: 20px; top: 33px;
+}
+
+#showProject #enterProject form input[type="submit"]{
+    padding:2.5px 5px;
+    background: #2980b9;
+    border: 3px solid #ecf0f1;
+    color: #ecf0f1;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#showProject #enterProject form input[type="submit"]:hover{
+    padding:2.5px 5px;
+    background: #ecf0f1 ;
+    border: 3px solid #2980b9;
+    color: #2980b9;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+#showProject #removeProject {
+    position: absolute;
+    right: 60px; top: 33px;
+}
+
+#showProject #removeProject form input[type="submit"]{
+    padding:2.5px 5px;
+    background: #2980b9;
+    border: 3px solid #e74c3c;
+    color: #e74c3c;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#showProject #removeProject form input[type="submit"]:hover{
+    padding:2.5px 5px;
+    background: #e74c3c ;
+    border: 3px solid #2980b9;
+    color: #2980b9;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}

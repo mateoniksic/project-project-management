@@ -1,0 +1,42 @@
+.loginFormBox {
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background: #d35400;
+    width: 400px; height: 400px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+.loginFormBox h2 {
+    color: #fff;
+    margin: 60px 0 30px 0;
+}
+
+.loginFormBox form input[type="text"] {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.loginFormBox form input[type="password"]  {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.loginFormBox form input[type="submit"] {
+    width: 228.4px;
+    padding: 15px;
+    margin: 10px 0 0 0;
+}
+
+.loginFormBox input[type="submit"]:hover {
+    color: #fff;
+    background: #2ecc71;
+    border: 3px solid #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

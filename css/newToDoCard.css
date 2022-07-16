@@ -1,0 +1,69 @@
+form .mainFormDivCardCreate {
+    display: flex;
+    align-items: center;
+    margin: 45px 0;
+}
+
+form .FormDivCardCreate {
+    flex: 1;
+    overflow: hidden;
+}
+
+.basicgInfoCardCreate {
+    background: #d35400;
+    border: 10px solid #ecf0f1;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  label,
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  p  {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ecf0f1;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  textarea {
+    resize: none;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  hr {
+    margin: 0 0 20px 0;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  input[type="text"] {
+    padding: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate select{
+    padding: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  input[type="submit"] {
+    padding: 5px;
+    margin: 15px 0 10px 0;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    background: #ecf0f1;
+    color: #d35400;
+    border-radius: 10px;
+}
+
+.groupCardCreate .mainFormDivCardCreate .FormDivCardCreate  input[type="submit"]:hover {
+    background: #d35400 ;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+}

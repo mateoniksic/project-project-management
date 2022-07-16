@@ -1,0 +1,69 @@
+form .mainFormDivUpdate {
+    display: flex;
+    align-items: center;
+    margin: 45px 0;
+}
+
+form .FormDivUpdate {
+    flex: 1;
+    overflow: hidden;
+}
+
+.basicgInfoUpdate {
+    background: #27ae60;
+    border: 10px solid #ecf0f1;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  label,
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  p  {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #ecf0f1;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  textarea {
+    resize: none;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  hr {
+    margin: 0 0 20px 0;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  input[type="text"] {
+    padding: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate select{
+    padding: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  input[type="submit"] {
+    padding: 5px;
+    margin: 15px 0 10px 0;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    background: #ecf0f1;
+    color: #27ae60;
+    border-radius: 10px;
+}
+
+.groupUpdate .mainFormDivUpdate .FormDivUpdate  input[type="submit"]:hover {
+    background: #27ae60 ;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+}

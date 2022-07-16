@@ -1,0 +1,35 @@
+#userProfile {
+    margin:130px auto;
+    width: 960px;
+    min-height: 600px;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px 0;
+}
+
+#userProfile td {
+    padding: 5px 0;
+}
+
+#userProfile p {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ #userProfile h1 {
+    color: #fff;
+}
+
+.info {
+    color: #fff;
+}
+
+#userProfile img {
+    width: 250px; height: 250px;
+    background-position: center;
+}

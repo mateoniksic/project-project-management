@@ -1,0 +1,203 @@
+
+#toDoListWrapper {
+    margin: 5px 18px 5px 0;
+    background: #d35400;
+    border: 2.5px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 5px;
+    width: 180px; height: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.projects h2 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #d35400;
+    padding: 5px 0 5px 5px;
+    text-transform: uppercase;
+    border-bottom: 5px solid  #d35400;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#toDoList {
+
+}
+/*PROFILE STYLING TO DO LIST*/
+#toDoListWrapper #toDoListAvatar {
+    display: inline-block;
+    position: absolute;
+    left: 35px; top: 15px;
+
+}
+#toDoListWrapper #toDoListAvatar  img {
+    width: 100px; height: 100px;
+    border-radius: 100px;
+    border: 2.5px solid #bdc3c7;
+}
+
+#toDoListUserInfo {
+    position: absolute;
+    top: 120px; left: 35px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+#toDoListUserInfo h5 {
+    margin: -7px 0 0 0;
+}
+
+#showList {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+#showList form input[type="submit"] {
+    padding:5px 15px;
+    background: #ecf0f1;
+    border: 3px solid #ecf0f1;
+    color: #e74c3c;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#showList form input[type="submit"]:hover {
+    padding:5px 15px;
+    background: #d35400;
+    border: 3px solid #ecf0f1;
+    color: #ecf0f1;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+/*UPDATE PROJECT*/
+#updateProject {
+    margin: 20px 0 0 0;
+}
+
+#updateProject input[type="submit"] {
+    text-decoration: inherit;
+    color: #ecf0f1;
+    font-weight: bold;
+    padding: 5px;
+    background: #2ecc71;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#updateProject input[type="submit"]:hover {
+    color: #2ecc71;
+    background: #ecf0f1;
+    border: 5px solid#2ecc71;
+    transition: 1s;
+}
+/*ADD TO DO LIST*/
+#newToDoList {
+
+}
+
+#newToDoList input[type="submit"] {
+    text-decoration: inherit;
+    color: #ecf0f1;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0;
+    background: #d35400;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    float: right;
+    /*display: inline-block;*/
+    cursor: pointer;
+    transition: 1s;
+}
+
+#newToDoList input[type="submit"]:hover {
+    color: #d35400;
+    background: #ecf0f1;
+    border: 5px solid #d35400;
+    transition: 1s;
+}
+
+/*TO DO CARD STYLE*/
+#showCardMain {
+    background: #d35400;
+    border: 2.5px solid #ecf0f1;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    color: #ecf0f1;
+    min-height: 150px;
+    position: relative;
+}
+
+#showCard h4 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: 0;
+    border-bottom: 2.5px solid #ecf0f1;
+    width:90%;
+}
+
+#showCard h5 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    position: absolute;
+    top: 55px; left: 20px;
+}
+
+#showCard #deadline h6 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    position: absolute;
+    bottom: 15px; right: 15px;
+    background: #f1c40f;
+    color: #ecf0f1;
+    font-weight: bold;
+    border: 2.5px solid #ecf0f1;
+    border-radius: 10px;
+    padding: 5px 7.5px;
+}
+
+#removeCard {
+    position: absolute;
+    top: 15px; right: 23px;
+}
+
+#removeCard input[type="submit"] {
+    padding: 0.5px 5px;
+    background: #2ecc71;
+    border: 2.5px solid #ecf0f1;
+    color: #ecf0f1;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#removeCard input[type="submit"]:hover {
+    padding: 0.5px 5px;
+    background: #f1c40f;
+    border: 2.5px solid #ecf0f1;
+    border-radius: 5px;
+    transition: 1s;
+}

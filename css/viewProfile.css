@@ -1,0 +1,25 @@
+.followUser {
+    position: relative;
+}
+
+#userProfile tr td .followUser form input[type="submit"] {
+    padding: 10px 20px;
+    position: absolute;
+    right: 20px;
+    bottom: -90px;
+    background: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#userProfile tr td .followUser form input[type="submit"]:hover {
+    background: #e74c3c;
+    color: #fff;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    transition: 1s;
+}

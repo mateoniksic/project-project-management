@@ -1,0 +1,60 @@
+.searchDiv {
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    background: #bdc3c7;
+    position: relative;
+    height: 270px;
+    /*z-index: -1;*/
+}
+
+.searchProfilePhoto {
+    display: inline-block;
+    margin-right: 50px;
+    border: 5px solid #ecf0f1;
+    border-radius: 10px;
+    overflow: none;
+}
+
+.profileInfo {
+    display: inline-block;
+    /*border: 5px solid red;*/
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+.searchDiv h3, h4, p {
+    display: block;
+    margin: 10px;
+}
+
+.searchDiv h3 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #c0392b;
+}
+
+#follow {
+    position: absolute;
+    top: 20px;
+    left: 750px;
+}
+
+#follow input[type="submit"] {
+    padding: 10px 20px;
+    background: #2980b9;
+    color: #fff;
+    border: 5px solid #ecf0f1;
+    box-sizing: border-box
+    transition: 1s;
+}
+
+#follow input[type="submit"]:hover {
+    background: #d35400;
+    cursor: pointer;
+    transition: 1s;
+}
