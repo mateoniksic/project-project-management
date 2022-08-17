@@ -2,7 +2,7 @@
 
 Project management application for teams developed using html, css, php, sql.
 
-## Instructions to start the application:
+## Instructions to start the application
 1. Import a database (DB_TRACKER.sql) to phpMyAdmin
 2. Change database connection settings in includes/connect_inc.php
 3. Run application on server
