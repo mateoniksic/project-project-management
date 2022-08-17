@@ -1,13 +1,14 @@
-# html-css-php-sql-project-management-app
+# PROJECT MANAGEMENT WEB APPLICATION
 
-Project management application for teams.
+Project management application for teams developed using html, css, php, sql.
 
-## To start the application:
+## Instructions to start the application:
 1. Import a database (DB_TRACKER.sql) to phpMyAdmin
 2. Change database connection settings in includes/connect_inc.php
 3. Run application on server
 
-<hr>
+
+## Application preview
 
 ![Site](showcase/site.png)
 
