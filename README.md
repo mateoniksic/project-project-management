@@ -1,4 +1,4 @@
-![Social Preview](https://user-images.githubusercontent.com/57192709/226385766-c5b05c83-db39-4bf5-a8e7-287cdffdcd8e.png)
+![Social Preview](https://user-images.githubusercontent.com/57192709/226618311-ba51ae9d-ceb4-4079-bb57-fd7ee1a9ec1a.png)
 
 # What is project management application?
 Project management application helps teams manage multiple projects.
